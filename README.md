@@ -2,6 +2,10 @@
 
 **OUTPUT**
 
+
+
+
+
 Analyzing: http://192.168.1.1/paypaI-login
 
 [+20] No HTTPS - not encrypted
@@ -10,11 +14,21 @@ Analyzing: http://192.168.1.1/paypaI-login
 
 === RESULT ===
 Risk Score: 90/100
-VERDICT: DANGER - Likely phishing
+VERDICT: DANGER - Likely phishing.
+
+
+
+
+
+
+
 
 
 
 **COMPile & Run**
+
+
+
 
 g++ src/main.cpp -o phishcheck -std=c++11
 ./phishcheck http://192.168.1.1/paypaI-login
